@@ -1,0 +1,46 @@
+* {
+    background-color: #272727;
+    color: #d4d4ca;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+
+h1 {
+    font-family: Garamond, 'Times New Roman', sans-serif;
+    font-size: 48px;
+    text-align: center;
+}
+
+#nav-menu {
+    list-style: none;
+    font-size: 24px;
+}
+
+.promo-pic {
+    height: 600px;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;    
+}
+
+.sub-heading {
+    font-size: 36px;
+    font-family: Garamond, 'Times New Roman', sans-serif;
+}
+
+a {
+    color: #4848ca;
+}
+/*
+a:visited {
+    color: #551A8B;
+}
+
+a:active a:visited:active {
+    color: #FF0000;
+}
+*/
