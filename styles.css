@@ -19,12 +19,29 @@ h1 {
     font-size: 24px;
 }
 
+#nav-menu li {
+    margin-bottom: 8px;
+}
+
 .promo-pic {
-    height: 600px;
-    width: auto;
+    height: 400px;
+    width: 600px;
     margin-left: auto;
     margin-right: auto;
-    display: block;    
+    display: block;   
+}
+
+#spiced-lentil-soup {
+    object-fit: cover;
+}
+
+#pea-and-ham-soup {
+    object-fit: none;
+    object-position: 0 50%;
+}
+
+#grilled-cheese {
+    object-fit: cover;
 }
 
 .sub-heading {
@@ -35,6 +52,23 @@ h1 {
 a {
     color: #4848ca;
 }
+
+.ingredients-list li {
+    padding-bottom: 8px;
+}
+
+.steps-list {
+    width: 70%;
+}
+
+.steps-list li {
+    padding-bottom: 8px;
+}
+
+.dietary-label {
+    font-weight: 600;
+}
+
 /*
 a:visited {
     color: #551A8B;
